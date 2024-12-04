@@ -1,0 +1,8 @@
+Minimum Commit Requirement: Participants must make at least 7 commits to their project's GitHub repository per day to demonstrate consistent progress.
+Error-Free Build and Run: The project must be able to build and run without any errors or issues at the time of final evaluation. This ensures that the project is functional and ready for demonstration.
+Regular GitHub Pushes: Participants are required to regularly push updates to their project's GitHub repository to track progress and allow for collaboration with team members.
+Original Work: Participants must ensure that their project is original and does not infringe upon the intellectual property rights of others. Plagiarism or unauthorized use of copyrighted material is not permitted.
+Demo Requirement: Each team or participant must be prepared to deliver a live demo or presentation of their project during the final evaluation. This allows judges to assess the functionality and effectiveness of the project.
+Ethical Considerations: Projects must adhere to ethical standards and avoid promoting harm or discrimination against individuals or groups. Any use of data or technology must be legal and ethical.
+Respect for Resources: Participants must respect the resources provided by the hackathon organizers, including equipment, software, and facilities. Any damage or misuse of resources may result in disqualification from the event.
+Time Management: Participants are responsible for managing their time effectively to meet deadlines and deliver a completed project by the end of the hackathon. This may involve prioritizing tasks, setting milestones, and adjusting plans as needed.

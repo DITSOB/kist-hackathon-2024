@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <link href="./style.css" rel="stylesheet" type="text/css" />
+        <script src="https://cdn.roboflow.com/0.2.25/roboflow.js"></script>
+    </head>
+    <body>
+        <div class="navBar">
+            <div class="logo">
+                <a href="/source-code/index.html">EcoShift</a>
+            </div>
+        </div>
+        <img
+            src="https://uploads-ssl.webflow.com/5f6bc60e665f54545a1e52a5/63d3f236a6f0dae14cdf0063_drag-image-here.png"
+            id="picture"
+            style="display: none"
+        />
+        <div id="example_demo">
+            <video muted autoplay loop id="video">
+            <source
+                id="video_source"
+            />
+            </video>
+        </div>
+        <canvas width="640" height="480" id="picture_canvas"></canvas>
+        <canvas width="640" height="480" id="video_canvas"></canvas>
+
+        <div id="prechosen_images_parent">
+          <div id="prechosen_images">
+          
+          </div>
+      </div>
+
+        <a href="#" id="webcam-predict" class="hero_button_secondary"
+            >Predict Using Webcam</a
+        >
+        <a href="#" id="image-predict" class="hero_button_secondary"
+            >Predict Using Image</a
+        >
+        <div id="plastic-images-container"></div>
+        <p id="typeofwaste"></p>
+        <script src="script.js"></script>
+    </body>
+</html>

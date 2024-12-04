@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 100px;
+}
+
+.navBar a{
+    z-index: 100;
+    padding-right: 100px;
+    margin-top: 50px;
+    text-decoration: none;
+    font-size: 45px;
+    color: black;
+}
+
+#blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.blog-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blog-heading span{
+    color: red;
+}
+
+.blog-heading h3{
+    font-size: 2.4rem;
+    color: black;
+    font-weight: 600;
+}
+
+.blog-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.blog-box{
+    width: 350px;
+    background-color: #6C77E0;
+    border: 1px solid white;
+    margin: 20px;
+}
+
+.blog-img{
+    width: 100%;
+    height: auto;
+}
+
+.blog-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.blog-img iframe{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.blog-text{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.blog-text a{
+    text-align: center;
+}
+
+.blog-text span{
+    color: #6C77E0;
+    font-size: 1rem;
+    text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Outfit", sans-serif;
+    font-style: normal;
+    text-align: justify;
+}
+
+body, html {
+    margin: 0;
+    min-width: 100vh;
+    scroll-behavior: smooth;
+}
+
+.body{
+    margin-top: 100px;
+    height: 100vh;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #6C77E0;
+    padding: 12px 36px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 16px;
+}
+
+.btn:hover{
+    border: 1px solid #6C77E0;
+    background: #6C77E0;
+    color: white;
+}
+
+
+p{
+    margin-top: 50px;
+    font:normal;
+}
+
+.body div{
+    
+    padding: 100px 100px 100px 100px;
+    text-align: center;
+}
+
+.highlight {
+    position: fixed; /* Fixed positioning to stay relative to viewport */
+    width: 100px;
+    height: 100px;
+    background: rgba(108, 119, 224, 0.5); /* Yellow highlight with transparency */
+    border-radius: 50%; /* Circular highlight */
+    pointer-events: none; /* Allow interactions through the highlight */
+    transform: translate(-50%, -50%); /* Center the highlight on the cursor */
+    will-change: transform; /* Optimize for performance */
+}
+
+.highlight-background::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px; /* Size of the highlight area */
+    height: 200px;
+    background: rgba(108, 119, 224, 0.5); /* Blue highlight with some transparency */
+    border-radius: 50%; /* Makes the highlight circular */
+    transform: translate(-50%, -50%);
+    transition: top 0.1s, left 0.1s; /* Smooth transition */
+    pointer-events: none;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    /* background-image: linear-gradient((4, 9, 30, 0.7), (4, 9, 30, 0.7)), url(); */
+    background-position: center;
+}
+
+nav{
+    padding: 10px 0;
+    top: 0;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+nav img{
+    width: 150px;
+    margin-left: 100px;
+    
+}
+
+.Logo{
+    color: #fff;
+}
+
+.logo a{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    font-size: 32px;
+    margin-left: 100px;
+}
+
+.logo a:hover{
+    color: #6C77E0;
+    transition: 0.5s;
+}
+
+/* .navLinks{
+    flex: 1;
+    text-align: right;
+    display: inline-block;
+} */
+
+.navLinks{
+    top: 0;
+    right: 0;
+    color: black;
+    padding: 10px 20px;
+    z-index: inherit;
+}
+
+.navLinks ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navLinks ul li{
+    z-index: 1000;
+    margin: 0 10px;
+}
+
+.navLinks a img{
+    display: block;
+}
+
+.navLinks ul li a{
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+.navLinks ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #6C77E0;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.navLinks ul li:hover::after{
+    width: 100%;
+}
+h4{
+    font-family: Bold;
+    font-size: 20pt;
+    color:#6C77E0;
+}

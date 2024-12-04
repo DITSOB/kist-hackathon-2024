@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.navBar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding-bottom: 0px;
+}
+
+.navBar a{
+  z-index: 100;
+  padding-right: 100px;
+  margin-top: 50px;
+  text-decoration: none;
+  font-size: 45px;
+  color: black;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+canvas,
+video,
+#picture {
+  display :flex;
+  margin-left:320px;
+  height: 480px;
+  width: 640px;
+}
+h1 {
+  color: #5400ec;
+  font-weight: 600;
+}
+.hero_button_secondary {
+  display: inline-block;
+  margin: 0 23px 25px auto;
+  padding: 16px 24px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  border-radius: 4px;
+  background-color: #7733f4;
+  box-shadow: 0 3px 3px 0 rgb(55 65 81 / 20%);
+  font-family: proxima-nova, sans-serif;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  margin-top: 15px;
+  margin-left:250px;
+  
+}
+#picture_canvas,
+#video_canvas {
+  display: none;
+}
+#prechosen_images_parent {
+  display: none;
+  border-radius: 16px;
+  background-color: rgba(31, 6, 85, 0.26);
+  width: 640px;
+  margin-top: 20px;
+}
+#prechosen_images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+}
+#prechosen_images img {
+  width: 100%;
+  max-width: 75px;
+  height: auto;
+  border-radius: 16px;
+  margin: 10px;
+  cursor: pointer;
+  max-height: 75px;
+  height: 75px;
+}
+#model-select {
+  background-color: #5400ec;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+  border-right: 10px solid transparent;
+}
